@@ -4,7 +4,7 @@
 
 Este script de JavaScript se ejecuta en un entorno de Cloudflare Workers y se utiliza para obtener y formatear recursos de Cloudinary, un servicio de gestión de activos digitales.
 
-![webpage caption](webpage-caption.jpge)
+![webpage caption](webpage-caption.jpeg)
 
 ### Funciones
 
