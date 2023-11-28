@@ -1,5 +1,5 @@
 // WORKER IN CLOUDFLARE TO GET RESOURCES FROM CLOUDINARY
-// https://cloudinary.elotromartinezsebastian.workers.dev/
+// https://github.com/DanielMartinezSebastian/cloudinary-fetcher-in-cloudflare-worker
 
 /**
  * Fetches resources from Cloudinary and generates an HTML response with formatted images and videos.
@@ -194,9 +194,25 @@ export default {
         color: #333;
         text-decoration: none;
       }
+      .github {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        margin-right: 10px;
+        margin-bottom: 10px;
+      }
+    
+      .github a {
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
+  <span class="github">
+    <a href="https://github.com/DanielMartinezSebastian/cloudinary-fetcher-in-cloudflare-worker" target="_blank">
+      <img src="https://res.cloudinary.com/martinezsebastian-test/image/upload/v1701172035/icons/ly7h0ssaorev80fdu1wi.png" alt="GitHub" width="50" />
+    </a>
+  </span>
     <h1>Cloudinary</h1>
     <h4>Imágenes</h4>
     <hr />
